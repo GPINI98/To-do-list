@@ -106,9 +106,14 @@ button:hover {
     padding: 5px 0;
 }
 
+.completata {
+    text-decoration: line-through;
+    color: #999;
+}
+
 /*Media Query per dispositivi mobili*/
 @media (max-width: 480px) {
-    .todo-app {
+    .app {
         padding: 20px;
     }
 
