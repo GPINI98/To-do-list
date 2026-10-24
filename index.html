@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista delle cose da fare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app">
+        <p class="sopratitolo">ORGANIZZATI AL MEGLIO !</p>
+        <h1>Le mie attività</h1>
+        <p class="descrizione">Aggiungi le attività e spuntale quando le hai completate.</p>
+         <form id="form-attivita">
+            <input 
+                id="nuova-attivita" 
+                type="text" 
+                placeholder="Es. javaScript, CSS, HTML"
+            >
+            <button type="submit">Aggiungi</button>
+        </form>
+
+        <ul id="lista-attivita">
+            <li class="attivita vuota">
+                Non ci sono ancora attività. Aggiungine una!
+            </li>
+        </ul>
+
+        <footer class="riepilogo">
+            <span id="conteggio">0 attività</span>
+            <button id="cancella-completate" type="button">
+                Rimuovi completate
+            </button>
+        </footer>
+    </main>
+</body>
+</html>
