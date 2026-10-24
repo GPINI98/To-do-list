@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    background: #f1f4f9;
+    color: #202b3c;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    width: 100%;
+    max-width: 520px;
+    padding: 30px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0 10px 30px #00000010;
+}
+
+.sopratitolo {
+    color: #4169e1;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.descrizione {
+    color: #657087;
+    line-height: 1.5;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    min-width: 0;
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #d7deea;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #4169e1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2d4fc2;
+}
+
+#lista-attivita {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.attivita {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid #e6eaf1;
+    border-radius: 8px;
+}
+
+.vuota {
+    color: #657087;
+    border-style: dashed;
+}
+
+.riepilogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #e6eaf1;
+    font-size: 13px;
+}
+
+#cancella-completate {
+    background: transparent;
+    color: #4169e1;
+    padding: 5px 0;
+}
+
+/*Media Query per dispositivi mobili*/
+@media (max-width: 480px) {
+    .todo-app {
+        padding: 20px;
+    }
+
+    form,
+    .riepilogo {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
