@@ -95,5 +95,5 @@ Elimina tutte le attività completate
 Le risposte del server vengono restituite in formato JSON.
 
 Obiettivo del progetto
-
+ 
 Il progetto nasce con l'obiettivo di approfondire il collegamento tra interfaccia utente, server e database. Durante lo sviluppo ho lavorato sulla gestione delle richieste HTTP, sulla creazione di API REST e sulla persistenza dei dati, consolidando le conoscenze attraverso la realizzazione pratica di un'applicazione completa.
